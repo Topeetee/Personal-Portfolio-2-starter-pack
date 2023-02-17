@@ -17,7 +17,7 @@ const [headerShadow, setHeaderShadow] = useState(false)
     };
   }, []);
 
-  return headerShadow
+  return headerShadow 
 };
 
 export default useHeaderShadow;

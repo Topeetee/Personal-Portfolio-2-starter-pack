@@ -146,8 +146,7 @@ export const staggerChildren = {
 
 
 export const getMenuStyles = (menuOpened) => {
-  if (document.documentElement.clientWidth <= 640) {
-    console.log("outside of sidebar reached")
+  if ( document.documentElement.clientWidth <= 767) {
     return { right: !menuOpened && "-100%" };
   }
 };

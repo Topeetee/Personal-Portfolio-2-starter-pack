@@ -1,37 +1,39 @@
 import { HiOutlineDesktopComputer } from "react-icons/hi";
 import { CiMobile1 } from "react-icons/ci";
 import { MdWorkspacesOutline } from "react-icons/md";
-export const projectExperience = [
+export const projectexperience = [
   {
     name: "Website Design",
-    projects: 76,
+    projects: 20,
     icon: HiOutlineDesktopComputer,
     bg: "#286F6C",
   },
   {
-    name: "Mobile App Design",
-    projects: 63,
+    name: "React projects",
+    projects: 14,
     icon: CiMobile1,
     bg: "#EEC048",
   },
   {
-    name: "Brand Identity",
-    projects: 47,
+    name: "Typescript",
+    projects: 4,
     icon: MdWorkspacesOutline,
     bg: "#F26440",
   },
 ];
 
 export const WhatDoIHelp = [
-  "I will help you with finging a solution and solve your problem, We use process design to create digital products. Besides that also help their business.",
-  "We use process design to create digital products. Besides that also help their business",
+  "I will help you with building a beautiful UI that ehances a very good user experiene. .",
+
+  
+  "I will help you to build with more modern tools like React, Tailwind, Bootstrap, Typescript and apply good seo",
 ];
 
 export const workExp = [
   {
-    place: "Self-Employed, Brisbane",
-    tenure: "Aug 2014 - Sep 2016",
-    role: "Visual Designer",
+    place: "Self-taught Dev",
+    tenure: "may 2022 - Sep 2022",
+    role: "Javascript Developer",
     detail:
       "A visual desginer dsesign for a variety of platoforms, may include internet and internet sites, games, movies, kioasks and wearbies. In short, they create the concepts",
   },
@@ -43,9 +45,9 @@ export const workExp = [
       "A visual desginer dsesign for a variety of platoforms, may include internet and internet sites, games, movies, kioasks and wearbies. In short, they create the concepts",
   },
   {
-    place: "Global Solution",
-    tenure: "Aug 2014 - Sep 2016",
-    role: "Sr. Product Designer",
+    place: "Personal Solution",
+    tenure: "sep 2022 - jan 2023",
+    role: "React Devoloper",
     detail:
       "A visual desginer dsesign for a variety of platoforms, may include internet and internet sites, games, movies, kioasks and wearbies. In short, they create the concepts",
   },
