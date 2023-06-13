@@ -10,46 +10,46 @@ export const projectexperience = [
   },
   {
     name: "React projects",
-    projects: 14,
+    projects: 9,
     icon: CiMobile1,
     bg: "#EEC048",
   },
   {
-    name: "Typescript",
-    projects: 4,
+    name: "Node js Projects",
+    projects: 10,
     icon: MdWorkspacesOutline,
     bg: "#F26440",
   },
 ];
 
 export const WhatDoIHelp = [
-  "I will help you with building a beautiful UI that ehances a very good user experiene. .",
+  "I can help you by building and maintaining the server-side of your web applications. I can handle data storage, processing, and communication with the frontend. Additionally, I can create APIs, manage databases, implement business logic, and ensure security and scalability for robust and efficient web systems.",
 
   
-  "I will help you to build with more modern tools like React, Tailwind, Bootstrap, Typescript and apply good seo",
+  "I can help you with frontend development using popular frameworks like React, along with styling libraries such as Tailwind CSS and Bootstrap. I can build responsive and interactive user interfaces, implement reusable components, and optimize performance to create visually appealing and user-friendly web applications.",
 ];
 
 export const workExp = [
   {
-    place: "Self-taught Dev",
-    tenure: "may 2022 - Sep 2022",
-    role: "Javascript Developer",
+    place: "Frontend",
+    tenure: "May 2022 - September 2022",
+    role: "Html, Css, and Javascript",
     detail:
-      "A visual desginer dsesign for a variety of platoforms, may include internet and internet sites, games, movies, kioasks and wearbies. In short, they create the concepts",
+      "I have gained experience in HTML, CSS, and JavaScript, developing skills in building and styling web pages, and creating interactive and dynamic functionality.",
   },
   {
-    place: "New Man Services",
-    tenure: "Aug 2014 - Sep 2016",
-    role: "UI/UX Designer",
+    place: "Frontend Frameworks",
+    tenure: "November 2022 - February 2023",
+    role: "React, Tailwind, Bootstrap",
     detail:
-      "A visual desginer dsesign for a variety of platoforms, may include internet and internet sites, games, movies, kioasks and wearbies. In short, they create the concepts",
+      "I have experience with frameworks like React, and styling libraries such as Tailwind CSS and Bootstrap, building responsive and visually appealing web applications with enhanced functionality and efficient code.",
   },
   {
-    place: "Personal Solution",
-    tenure: "sep 2022 - jan 2023",
-    role: "React Devoloper",
+    place: "Backend",
+    tenure: "April 2023",
+    role: "Node js, Express and MongoDb ",
     detail:
-      "A visual desginer dsesign for a variety of platoforms, may include internet and internet sites, games, movies, kioasks and wearbies. In short, they create the concepts",
+      "I have experience with Node.js, Express, and MongoDB, developing server-side applications, building RESTful APIs, handling data storage and retrieval, and ensuring seamless communication between the frontend and backend components.",
   },
 ];
 

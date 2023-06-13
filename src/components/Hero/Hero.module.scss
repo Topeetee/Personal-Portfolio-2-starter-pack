@@ -56,12 +56,13 @@
                 left: 0;
                 background-size: 20rem;
                 display: flex;
+                bottom: -2rem;
                 align-items: center;
                 justify-content: center;
                 background-position: bottom;
             }
             position: absolute;
-            bottom: -2rem;
+            bottom: -10rem;
             margin: auto;
             background-image: url("../splash.png");
             background-repeat: no-repeat;
@@ -70,7 +71,7 @@
             img{
                 @media (max-width:$sm){
                     width: 23rem;
-
+                    bottom: -2rem;
                 }
                 margin-bottom: -5px;
                 background-size: cover;

@@ -9,7 +9,7 @@ import { useRef } from 'react'
 const Header = () => {
   const [menuOpened, setMenuOpened] = useState(false);
   const headerShadow = useHeaderShadow();
-  const menuRef = useRef();
+  const menuRef = useRef(null);
 
   useOutsideAlerter({menuRef,setMenuOpened,})
   return (
@@ -32,7 +32,6 @@ const Header = () => {
           className={`flexCenter ${css.menu}`}>
           <li><a href="#expertise">Servives</a></li>
           <li><a href="#work">Experience</a></li>
-          <li><a href="#portfolio">Portfolio</a></li>
           <li><a href="#people">Testimonials</a></li>
           <li className={`flexCenter ${css.phone}`}>
             <p>+123 456 789</p>

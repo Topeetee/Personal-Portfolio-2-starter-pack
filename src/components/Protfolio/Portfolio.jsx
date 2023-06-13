@@ -29,11 +29,11 @@ const Portfolio = () => {
 
         <div className={`flexCenter ${css.showcase}`}>
             <motion.img variants={fadeIn("up", "tween", 0.5, 0.6)} 
-            src="./showCase1.png"
+            src="./luzPro (2).png"
             alt="topeetee" />
      
             <motion.img variants={fadeIn("up", "tween", 0.7, 0.6)} 
-            src="./showCase2.png"
+            src="./showcase2.png"
             alt="topeetee" />
        
             <motion.img variants={fadeIn("up", "tween", 0.9, 0.6)} 

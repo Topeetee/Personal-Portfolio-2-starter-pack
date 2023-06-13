@@ -17,17 +17,17 @@ const Hero = () => {
           <motion.span
             variants={fadeIn("right", "tween", 0.2, 1)}
             className='primaryText'>
-            Hey There, <br /> I'm Temitope.
+            Hey There, <br /> I'm Temitope<p>(AkpariJS).</p>
           </motion.span >
           <motion.span className="secondaryText" variants={fadeIn("left", "tween", 0.4, 1)}>
-            I am a Frontend Developer, <br />
-            i Design websites.
+            I am a Fullstack Developer, <br />
+            i Develop websites.
           </motion.span>
         </div>
 
         <motion.div className={css.person}
           variants={fadeIn("up", "tween", 0.3, 1)}>
-          <motion.img variants={slideIn("up", "tween", 0.5, 1)} src="./Snapchat-1170268993-removebg-preview.png" alt="topeetee image" />
+          <motion.img variants={slideIn("up", "tween", 0.5, 1)} src="/portt-removebg-preview.png" alt="topeetee image" />
         </motion.div>
 
         <a className={css.email} href="mailto:temitopeakinwekomi28@gmail.com">temitopeakinwekomi28@gmail.com</a>
@@ -43,9 +43,9 @@ const Hero = () => {
           <motion.div
             variants={fadeIn("left", "tween", 0.5, 1)}
             className={css.certificate}>
-            <img src='./certificate.png' alt='certificate-image'/>
+            <img src='./certificate.png' alt='certificate-image' />
             <span>CERTIFIEED PROFESSIONAL</span>
-            <span>FRONTEND DEVELOPER</span>
+            <span>FULLSTACK DEVELOPER</span>
           </motion.div>
         </div>
       </motion.div>
